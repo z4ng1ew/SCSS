@@ -1,0 +1,104 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #191919;
+  padding-left: calc(50% - 1400px / 2);
+  padding-right: calc(50% - 1400px / 2);
+  font-family: "DM Sans", sans-serif;
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style-type: none;
+  }
+  header {
+    nav {
+      display: flex;
+      justify-content: space-between;
+      height: 119px;
+      align-items: center;
+      padding-bottom: 40px;
+
+      .header__logo {
+        margin-left: 50px;
+      }
+      .header__ul {
+        display: flex;
+        padding-right: 70px;
+        gap: 40px;
+
+        .header__link {
+          color: #fff;
+
+          font-family: DM Sans;
+          font-size: 17px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 27px;
+        }
+      }
+    }
+
+    .header__box {
+      display: flex;
+      padding-bottom: 90px;
+      justify-content: space-between;
+
+      .header__box-info {
+        padding-left: 60px;
+        margin-top: 334px;
+
+        .header__box-title {
+          padding-right: 114px;
+
+          color: #fff;
+
+          font-family: DM Sans;
+          font-size: 70px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 88px; /* 125.714% */
+          letter-spacing: 3.2px;
+
+          .span1 {
+            color: #fff;
+
+            font-family: DM Sans;
+            font-size: 75px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 88px; /* 117.333% */
+            letter-spacing: 3.2px;
+          }
+          .span2 {
+            color: #fff;
+
+            font-family: DM Sans;
+            font-size: 80px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 88px; /* 110% */
+            letter-spacing: 3.2px;
+          }
+        }
+        .header__box-text {
+          padding-left: 22px;
+          color: #fff;
+
+          font-family: DM Sans;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+        }
+        .header__box-img {
+          display: flex;
+          gap: 17px;
+          flex-direction: row;
+          padding-left: 22px;
+          padding-top: 16px;
+        }
+      }
+    }
+  }
+}
